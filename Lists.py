@@ -33,6 +33,12 @@ list_of_random_things[1:]
 5 in [1, 2, 3, 4, 6]
 # False
 
+# Mutability - Lists can be changed. Strings cannot.
+# Are they mutable? Are they ordered?
+# >>> my_lst = [1, 2, 3, 4, 5]
+# >>> my_lst[0] = 'one'
+# >>> print(my_lst)
+# ['one', 2, 3, 4, 5]
 
 
 
