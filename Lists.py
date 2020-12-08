@@ -15,8 +15,23 @@ list_of_random_things = [1, 3.4, 'a string', True]
 list_of_random_things[1:2]
 # Returns 3.4 - skips 0th, grabs 1st, does not grab 2nd
 
+list_of_random_things[:2]
+# Returns [1, 3.4]
 
+list_of_random_things[1:]
+# Returns [3.4, 'a string', True]
 
+# Check if something is in or not in a list
+'this' in 'this is a string'
+# True
+'in' in 'this is a string'
+# True
+'isa' in 'this is a string'
+# False
+5 not in [1, 2, 3, 4, 6]
+# True
+5 in [1, 2, 3, 4, 6]
+# False
 
 
 
